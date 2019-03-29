@@ -11,6 +11,7 @@ Here are some functions that can help with that.
 - Prevent tags from repeating themselves in retrieveTags results
 - [Read.write.as](https://read.write.as) integration
 
+## Retrieving Tags used in a Collection
 ```
 retrieveTags('matt')
 
@@ -25,13 +26,10 @@ retrieveTags('matt')
 ]
 ```
 
+## Retrieving Posts from a Collection using a Tag
 ```
 searchTags('deaconpatrick', 'WithAbandon')
 
 # Returns a list of posts from a collection that use the tag you are searching
 
 ```
-
-**TODO:**
-- Prevent tags from repeating themselves in retrieveTags results
-- [Read.write.as](https://read.write.as) integration
