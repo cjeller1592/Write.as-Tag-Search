@@ -20,10 +20,14 @@ def retrieveTags(collection):
         tags = post['tags']
         for tag in tags:
             list.append(tag)
+            
+     # Return list that can be queried: ex. list[0]['title']
+    if list == []:
+        return 'No tags are to be found in this collection!'
 
     return list
 
-# This is way to grab posts with a specific tag
+# This is way to grab posts with a specific tag from a collection
 def searchTags(collection, tag):
     c = writeas.NewClient()
 
