@@ -8,7 +8,7 @@ Here are some functions that can help with that.
 **Requirements:** [Write.as API](https://github.com/cjeller1592/Writeas-API)
 
 **TODO:**
-- Prevent tags from repeating themselves in retrieveTags results
+- ~~Prevent tags from repeating themselves in retrieveTags results~~
 - [Read.write.as](https://read.write.as) integration
 
 ## Retrieving Tags used in a Collection
@@ -17,13 +17,8 @@ retrieveTags('matt')
 
 # Returns a list of the tags used in a collection
 
-[
-'AWP', 'travel', 'FLtoOR', 'trains', 'keto', 'travel', 
-'FLtoOR', 'trains', 'amtrak', 'AWP', 'travel', 'FLtoOR', 
-'trains', 'AWP', 'personal', 'travel', 'work', 'newyear2019', 'WriteFreely', 
-'ReadAs', 'ActivityPub', 'fediverse', 'hashtags', 'fediverse', 
-'CamelCase', 'WriteAs', 'tags', 'ActivityPub'
-]
+['travel', 'FLtoOR', 'trains', 'keto', 'amtrak', 'newyear2019', 'personal', 
+'work', 'ActivityPub', 'fediverse', 'WriteFreely', 'ReadAs', 'hashtags', 'CamelCase', 'WriteAs', 'tags']
 ```
 
 ## Retrieving Posts from a Collection using a Tag
